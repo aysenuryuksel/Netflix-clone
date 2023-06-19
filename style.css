@@ -1,0 +1,95 @@
+.netflixheader{
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)) , url(img/arkaplan.jpg);
+    width: 100%;
+    height: 100vh;
+}
+.navbar-nav .nav-link.active ,.nav-link{
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: black;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.basla{
+    width: 30%;
+}
+.bi{
+    font-size: 15px;
+}
+.col-md-8 h1{
+    font-size: 50px;
+}
+.accordion-button{
+    background-color:rgb(44, 44, 44);
+    color: white;
+}
+.accordion-button:hover, .accordion-button:focus, .accordion-button:not(.collapsed){
+    background-color:rgb(44, 44, 44); 
+    color: white;
+    
+}
+.accordion-item{
+    margin-top: .5rem;
+    border: none;
+}
+
+
+.accordion-button , .accordion-button:not(.collapsed){
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.accordion-button::after{
+    background-image: url("img/plus.png");
+}
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("img/eksi.png");
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+
+.accordion {
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    color: rgb(83 82 85);
+}
+.box1 ul li{
+    list-style: none;
+    padding-top: 1.5rem;
+}
+.box1 a{
+    text-decoration: none;
+    color: rgb(83 82 85);
+    
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .row {
+        display: flex;
+        display: -ms-flex;
+        flex-direction: column;
+    }
+    .row .descriptionImg {
+    order: 2;
+    }
+    .row .description {
+    order: 1;
+  }
+}

@@ -1,0 +1,37 @@
+
+.bg-body-tertiary{
+    background-color: rgb(18 12 7) !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: rgb(101, 101, 101);
+}
+header{
+    background-color:rgb(247 243 220);
+}
+.box ul li{
+    list-style-type: none;
+}
+.box a{
+    text-decoration: none;
+}
+
+.btn{
+    color: white !important;
+}
+footer{
+    background-color: black;
+    color: rgb(83 82 85);
+}
+.box1 ul li{
+    list-style: none;
+    padding-top: 1.5rem;
+}
+.box1 a{
+    text-decoration: none;
+    color: rgb(83 82 85);
+    
+}
+
+.navbar-toggler{
+    background-color: white;
+}

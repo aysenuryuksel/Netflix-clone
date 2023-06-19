@@ -1,0 +1,36 @@
+.bg-body-tertiary{
+    background-color: rgb(18 12 7) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: rgb(101, 101, 101);
+}
+.btn{
+    color: white !important;
+}
+.headerbody{
+    background-image: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)) ,url(img/arkaplan.jpg);
+    height: 100vh;
+}
+.sectionbody{
+    background-color: rgb(51, 51, 51);
+}
+.Imgseciton{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: rgb(83 82 85);
+}
+.box1 ul li{
+    list-style: none;
+    padding-top: 1.5rem;
+}
+.box1 a{
+    text-decoration: none;
+    color: rgb(83 82 85);
+    
+}
+.navbar-toggler{
+    background-color: white;
+}
