@@ -32,3 +32,11 @@ img{
 .list p{
     font-size: 20px;
 }
+@media screen and (max-width:900px) {
+    .list{
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+        padding-left: 2rem;
+    }
+}
