@@ -17,7 +17,7 @@ img{
     width: 80%;
     background-color: rgb(27 25 27);
 }
-.card{
+.list{
     border: none;
     background-color: rgb(27 25 27);
     color: rgb(92 93 97);
@@ -29,6 +29,6 @@ img{
     color: rgb(89, 91, 95);
     background-color: rgb(27 29 33);
 }
-.card p{
+.list p{
     font-size: 20px;
 }
