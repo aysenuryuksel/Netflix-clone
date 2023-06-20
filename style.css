@@ -58,8 +58,11 @@ body{
 }
 
 
-.accordion {
+/* .accordion {
     background-color: white;
+} */
+.accordion {
+    background-color: black;
 }
 
 footer{

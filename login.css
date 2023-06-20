@@ -55,12 +55,15 @@ footer{
 }
 
 
-@media screen and (max-width:800px) {
+/* @media screen and (max-width:800px)  {
     .logo{
         width: 40%;
     }
     .card{
         width: 50%;
     }
+    footer{
+        width: 100%;
+    }
     
-}
+} */
